@@ -1,6 +1,6 @@
-package opgave01.models;
+package Opgave2.models;
 
-public class StatisticsDisplay {
+public class StatisticsDisplay implements Observer {
     private float totalTemp = 0;
     private float totalHumidity = 0;
     private float totalPressure = 0;

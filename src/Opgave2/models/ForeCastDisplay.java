@@ -1,6 +1,6 @@
-package opgave01.models;
+package Opgave2.models;
 
-public class ForeCastDisplay {
+public class ForeCastDisplay implements Observer{
     private float lastTemp;
     private float lastHumidity;
     private float lastPressure;
